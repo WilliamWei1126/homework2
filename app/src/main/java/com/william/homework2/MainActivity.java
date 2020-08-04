@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 String [] lines = result.split(";");
                 Scalar LineColor = new Scalar(255, 0, 0, 255);
                 int linewidth = 3;
-                //coursera java for android week 2 array part 2
+
                 for (String currline : lines){
                     String [] line = currline.split(" ");
                     String p1 = line[0];
